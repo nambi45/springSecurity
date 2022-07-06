@@ -1,0 +1,14 @@
+package com.exampleSpringSecurity.exampleSpringSecurity;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class examplespringsequritycontroller {
+	
+	@GetMapping("/springsecurity")
+	public String springSecurity(){
+		return "SpringSecurity";
+	}
+
+}
